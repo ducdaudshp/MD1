@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .form{
+        font-family: "Lucida Sans Unicode", "tahoma";
+        border: 5px solid black;
+        border-radius: 10px;
+        padding-left: 50px;
+        padding-bottom: 20px;
+        width: 20%;
+        background-color: bisque;
+    }
+    .name{
+
+    }
+    .select{
+
+    }
+    .gia{
+
+    }
+    .submit{
+        padding-top: 10px;
+
+    }
+</style>
+<body>
+<form action="" class="form">
+    <h1>Order Form</h1>
+    <p>What would you like to buy?</p>
+    <div class="select">
+        <select>
+            <option>Ao</option>
+            <option>Quan</option>
+            <option>Mu</option>
+            <option>Tat</option>
+            <option>Do lot</option>
+        </select>
+    </div>
+    <p>How many would you like to order?</p>
+    <div class="gia">
+        <input type="radio" name="gia">1-$10</br>
+        <input type="radio" name="gia">2-$20</br>
+        <input type="radio" name="gia">3-$30</br>
+    </div>
+    <p>Name</p>
+    <div class="name">
+        <input type="text" name="firstname" placeholder="Firstname">
+        <input type="text" name="lastname" placeholder="Lastname">
+    </div>
+    <p>Email</p>
+    <div>
+        <input type="text" name="email">
+    </div>
+    <p>Phone number</p>
+    <div>
+        <input type="number" name="phone"></br>
+    </div>
+    <div class="submit">
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </div>
+</form>
+</body>
+</html>
