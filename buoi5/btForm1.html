@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .border{
+        border: solid 15px aqua;
+        padding-bottom: 10px;
+    }
+    .header{
+        background-color: red;
+        color: #dddddd;
+        height: 40px;
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: -15px ;
+    }
+    .infor{
+        margin-left: 50px;
+        margin-top: 15px;
+        color: blue;
+    }
+    .hobit{
+        color: orange;
+        padding-left: 120px;
+    }
+    .hobit .c1{
+        color: black;
+        margin-left: -60px;
+    }
+    .bt{
+        margin-left: 120px;
+    }
+</style>
+<body>
+<form action="/thanhcong.html" class="border">
+    <div class="header">
+        <h1>SỞ THÍCH CỦA BẠN</h1>
+    </div>
+    <div class="infor">
+        <label>Họ và tên</label>
+        <input style="width: 30%" type="text" name="hoten" placeholder="Họ và tên"></br>
+        <label style="padding-left: 24px">Email</label>
+        <input style="margin-top: 10px" type="text" name="email" placeholder="Email">
+    </div>
+    <div class="hobit">
+        <label class="c1">Sở thích</label>
+        <input type="checkbox" name="thethao">Thể thao
+        <input type="checkbox" name="amnhac">Âm nhạc
+        <input type="checkbox" name="docsach">Đọc sách</br>
+        <input type="checkbox" name="luotweb">Lướt web
+        <input type="checkbox" name="choigame">Chơi game
+        <input type="checkbox" name="dienanh">Điện ảnh</br>
+        <input type="checkbox" name="dulich">Du lịch
+    </div>
+    <div class="bt">
+        <input type="submit" value="Gửi thông tin">
+        <input type="reset" value="Nhập lại">
+    </div>
+</form>
+</body>
+</html>
