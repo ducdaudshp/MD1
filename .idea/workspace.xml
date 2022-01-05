@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60909b43-de2a-4864-b26b-b311e8d365ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/5thang1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buoi6/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buoi6/index1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buoi6/thuchanh2.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/5thang1/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5thang1/js1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -59,7 +56,7 @@
       <workItem from="1641269027609" duration="2394000" />
       <workItem from="1641344445392" duration="4000" />
       <workItem from="1641353021986" duration="142000" />
-      <workItem from="1641353358916" duration="1206000" />
+      <workItem from="1641353358916" duration="2260000" />
     </task>
     <servers />
   </component>
