@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--    <input type="number" placeholder="Vật lý"></br>-->
+<!--    <input type="number" placeholder="Hóa học"></br>-->
+<!--    <input type="number" placeholder="Sinh học"></br>-->
+    <script>
+        let vatly,hoahoc,sinhhoc;
+        vatly = prompt('Nhập điểm vật lý: ');
+        hoahoc = prompt('Nhập điểm hóa học: ');
+        sinhhoc = prompt('Nhập điểm sinh học: ');
+        let a = parseInt(vatly);
+        let b = parseInt(hoahoc);
+        let c = parseInt(sinhhoc);
+        let tong = a + b + c;
+        alert('Tổng 3 môn là: ' + tong);
+        let tb = (a + b + c)/3;
+        alert('Trung bình môn là: ' + tb);
+    </script>
+</body>
+</html>
