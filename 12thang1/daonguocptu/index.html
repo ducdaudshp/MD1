@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [2, 6, -3, 10, -6, 0, 1];
+    document.write('Mảng đã cho là: ' + a + '</br>');
+    let dau = 0;
+    let cuoi = a.length - 1;
+    while (dau < cuoi) {
+        let x = a[dau];
+        a[dau] = a[cuoi];
+        a[cuoi] = x;
+        dau++;
+        cuoi--;
+    }
+    document.write('Mảng sau khi đảo ngược là: ' + a);
+</script>
+</body>
+</html>
